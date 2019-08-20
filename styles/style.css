@@ -1,0 +1,21 @@
+body {
+  /*background-color: black;
+  color: white;*/
+}
+
+small {  
+  color: gray;
+}
+
+#container {
+  max-width: 300px;
+  margin: auto;
+  /*border: 1px solid black;*/
+  font-family: 'Space Mono', monospace;
+}
+h1 {
+  font-family: 'Long Cang', cursive;
+}
+#text, #add {
+  font-family: 'Space Mono', monospace;
+}
