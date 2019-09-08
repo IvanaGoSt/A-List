@@ -1,4 +1,16 @@
 const container = document.querySelector("#container");
+
+let theme = document.querySelector("#theme");
+theme.addEventListener("change", changeTheme);
+
+  function changeTheme() {
+    if(theme.checked){
+      document.body.setAttribute("style", "color: white; background-color: black");
+    } else {
+      document.body.removeAttribute("style", "color: white; background-color: black");
+    }
+  }
+
 var btn = document.querySelector("#add");
 btn.addEventListener("click", addItems);
 

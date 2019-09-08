@@ -3,7 +3,7 @@ body {
   color: white;*/
 }
 
-small {  
+small {
   color: gray;
 }
 
@@ -18,4 +18,8 @@ h1 {
 }
 #text, #add {
   font-family: 'Space Mono', monospace;
+}
+
+#themeAlign {
+  text-align: right;
 }
