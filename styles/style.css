@@ -1,16 +1,10 @@
-body {
-  /*background-color: black;
-  color: white;*/
-}
-
 small {
   color: gray;
 }
 
 #container {
   max-width: 300px;
-  margin: auto;
-  /*border: 1px solid black;*/
+  margin: auto;  
   font-family: 'Space Mono', monospace;
 }
 h1 {
